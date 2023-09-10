@@ -1,0 +1,28 @@
+body {
+    font-family: 'K2D', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 30px;
+    background-color: rgb(250, 250, 231)
+}
+.bodyquestion {
+    display: flex;
+    justify-content: center;
+}
+.question {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+.selected {
+    font-size: 1.5rem;
+    color: rgb(238, 120, 9);
+}
+@media screen and (max-width: 876px) {
+    .question{
+        font-size: 1.5rem;
+    }
+    .selected {
+        font-size: 1rem;
+    }
+}
